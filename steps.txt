@@ -1,0 +1,28 @@
+npx create-next-app@latest
+npm create sanity@latest
+
+cd .  --> open sanity project in vscode
+
+go to: manage.sanity.io
+API --> Add CORS origin
+URL: http://localhost:3000
+Allow credentials  [save]
+
+next-sanity:  npm install sanity next-sanity
+add file --> sanity.config.ts & config it
+
+add page.tsx to next-sanity\admin\[[...index]] & write code
+
+add file --> project-schema.ts to sanity\schemas & write code
+
+add file --> index.ts to sanity\schemas & write code
+
+update file --> sanity.config.ts
+
+add new (project schema) in studio (localhost:3000/admin)
+
+ *** create file to fetch data ***
+add file --> sanity.utils.ts to sanity
+
+
+
